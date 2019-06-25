@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:gravity="center"
+    >
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:gravity="center"
+                      android:layout_weight="1"
+        >
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:id="@+id/bookname"
+                      android:textSize="16sp"
+            />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:id="@+id/bookAuthor"
+                      android:textSize="16sp"
+                      android:layout_marginTop="5dp"
+            />
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                  android:background="@android:color/black"
+            />
+        </LinearLayout>
+        <ImageView android:layout_width="30dp" android:layout_height="30dp"
+                   android:id="@+id/delete"
+                   android:src="@drawable/deletebtn"
+        />
+    </LinearLayout>
+
+</layout>
